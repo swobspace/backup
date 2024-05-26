@@ -27,18 +27,18 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  gem.add_dependency "thor", "~> 0.18", ">= 0.18.1"
+  gem.add_dependency "thor", "~> 1.3.0"
   gem.add_dependency "open4", "1.3.0"
   gem.add_dependency "excon", "~> 0.71"
-  gem.add_dependency "net-ssh", ">= 5.2.0"
-  gem.add_dependency "net-scp", ">= 4.0.0"
-  gem.add_dependency "net-sftp", ">= 4.0.0"
+  gem.add_dependency "net-ssh", "~> 7.0"
+  gem.add_dependency "net-scp", "~> 4.0"
+  gem.add_dependency "net-sftp", "~> 4.0"
   gem.add_dependency "net-smtp", "~> 0.1"
   gem.add_dependency "mail", "~> 2.6", ">= 2.6.6"
   gem.add_dependency "flowdock", "0.4.0"
   gem.add_dependency "dogapi", "1.40.0"
-  gem.add_dependency "nokogiri", "~> 1.11.7"
-  gem.add_dependency "activesupport", ">= 7.0.0"
+  gem.add_dependency "nokogiri", "~> 1.16.0"
+  gem.add_dependency "activesupport", "~> 7.1.0"
 
   gem.add_development_dependency "rubocop", "0.48.1"
   gem.add_development_dependency "rake"
